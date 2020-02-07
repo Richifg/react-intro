@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  text-align: center;
+  color: white;
+}
+
+.app-header {
+  background-color: #104b49;
+  height: 10vh;
+}
+
+.app-body {
+  background-color: rgb(106, 121, 121);
+  height: 90vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.card__container {
+  color: black;
+  height: 200px;
+  width: 200px;
+  margin: 0 20px 20px 0;
+}
+.card__container:hover .card__image {
+  transform: scale(1.05);
+}
+.card__image-container {
+  border-radius: 20px 20px 0 0;
+  background-color: white;
+  height: 80%;
+  overflow: hidden;
+}
+.card__image {
+  transition: transform 0.4s;
+}
+
+.card__body-container {
+  border-radius: 0 0 20px 20px;
+  background-color: #104b49;
+  color: white;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.card__title {
+  font-size: 1.5rem;
+}
