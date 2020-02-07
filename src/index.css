@@ -7,11 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .app {
   text-align: center;
   color: white;
@@ -22,12 +17,15 @@ code {
   height: 10vh;
 }
 
+h1 { margin: 0 }
+
 .app-body {
   background-color: rgb(106, 121, 121);
   height: 90vh;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
 }
 
 .cards-container {
@@ -68,4 +66,62 @@ code {
 }
 .card__title {
   font-size: 1.5rem;
+}
+
+
+.add-button__container {
+  color: black;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  margin: 0 20px 20px 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.add-button__symbol {
+  width: 50%;
+  height: 50%;
+  transition: transform 0.2s;
+}
+.add-button__container:hover .add-button__symbol {
+  transform: scale(1.1);
+}
+
+.add-button__input {
+  width: 150px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.add-button__input--add {
+  background-color: #60cc52;
+  color: white;
+}
+.add-button__input--cancel {
+  background-color: #b93e3e;
+  color: white;
+}
+
+.loader { 
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 10px solid transparent;
+  border-top-color: #3792c7;
+  animation: spin 1s infinite;
+}
+
+@keyframes spin {
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
 }

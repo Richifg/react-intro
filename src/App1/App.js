@@ -6,11 +6,11 @@ const App = () => (
     <header className="app-header">
       <h1>Example 1: props</h1>
     </header>
-    <body className="app-body">
+    <main className="app-body">
       <div className="cards-container">
         <Card /> 
       </div>
-    </body>
+    </main>
   </div>
 );
 
