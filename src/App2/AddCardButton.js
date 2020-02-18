@@ -3,7 +3,7 @@ import React from 'react';
 const AddCardButton = () => (
   <div className="add-button__container">
       <img 
-        src="https://lh3.googleusercontent.com/proxy/1-41wFvuw2vjDoT2zHlO7GLvCDNXCijMtmptOTLa99mrvtL7HzaCkxrHhizHLcKqbdxrFF3O2B_mRMArJfwEjnhCO02Hl8M"
+        src="https://img.icons8.com/cotton/2x/plus--v1.png"
         className="add-button__symbol"
         alt="plus"
       />
