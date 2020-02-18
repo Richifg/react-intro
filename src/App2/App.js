@@ -1,12 +1,11 @@
 import React from 'react';
 import Card from './Card';
+import Header from './Header';
 import data from '../exampleData';
 
 const App = () => (
   <div className="app">
-    <header className="app-header">
-      <h1>Example 2: state</h1>
-    </header>
+    <Header title="Example 2: state" />
     <main className="app-body">
       <div className="cards-container">
         {data.map(item => (

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from './Header';
 import Card from './Card';
 import AddCardButtom from './AddCardButton';
 import initialData from '../exampleData';
@@ -10,9 +11,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <header className="app-header">
-        <h1>Example 2: effects</h1>
-      </header>
+      <Header title="Example 4: ???" />
       <main className="app-body">
         <div className="cards-container">
           {data.map(item => (
