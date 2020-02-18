@@ -34,13 +34,11 @@ h1 { margin: 0 }
   justify-content: center;
 }
 
-
-
 .card__container {
   color: black;
   height: 200px;
   width: 200px;
-  margin: 0 20px 20px 0;
+  margin: 10px;
 }
 .card__container:hover .card__image {
   transform: scale(1.05);
@@ -74,7 +72,7 @@ h1 { margin: 0 }
   background-color: white;
   height: 200px;
   width: 200px;
-  margin: 0 20px 20px 0;
+  margin: 10px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
