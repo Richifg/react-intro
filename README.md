@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 run `yarn start` to open the dev server.
 
-Examples are not because they were completed during the training, however, each consecutive example starts from the solved version of the previous one.
+Examples are not solved because they were completed during the training, however, each consecutive example starts from the solved version of the previous one.
 
 So if you want to see Example1 completed just switch to Example2.
 
